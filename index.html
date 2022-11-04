@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ">
+</head>
+<body>
+
+    <nav>
+        </label>
+        <label class="logo" id="home">SunShine</label>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+        </ul>
+    </nav>
+    <section class="home-section">
+        <div class="home">
+           <h1>Hi there, we are joyful to have you,
+            now feel free to explore your needs with 
+            SunShine.
+           </h1>
+        </div>
+    </section>
+    
+    <section class="about-section" id="about">
+        <div class="about">
+            <h1 class="about-title">About</h1>
+            <p class="about-p">
+                We help vendors to sell their products
+                through the platform <a href="#home " id="home">Sunshine</a>
+                and buyers to easier get their favorate products.
+                Also looking around for big partners. 
+            </p>
+        </div>
+    </section>
+
+
+    <section class="products-section" id="products">
+    <div >
+           <div class="products">
+            <h1 class="product">Products</h1>
+            <div>
+                <div class="form-container">
+                    <form action="" class="inventory-form">
+                        <h1 class="add-product">Add Product</h1>
+                        <div class="title">
+                            <input type="text" id="title" required name="title" placeholder="Title">
+                        </div>
+                       <div class="price-input">
+                        <input type="number" name="price" placeholder="Price in RWF">
+                       </div>
+
+                       <div class="quantity-input">
+                        <input type="number" name="quantity" placeholder="Quantity">
+                       </div>
+            
+                       <div class="category-input">
+                          <select name="category" id="" required>
+                          <option disabled="true">category</option>
+                          <option value="Clothes">Clothes</option>
+                          <option value="Fruits">Fruits</option>
+                          <option value="Electronics">Electronics</option>
+                       </select>
+                       </div>
+                        <div class="date">
+                          <input type="date" name="date" required placeholder="Add date">
+                        </div>
+            
+                        <div class="description">
+                           <textarea name="description" id="form-description" required cols="30" rows="5"></textarea>
+                        </div>
+                    <div class="image-input">
+                        <input type="file" name="image" multiple accept="image/*" required>
+                    </div>
+                        <button class="submit-btn" type="submit" >Add</button>
+                    </form>
+                </div>     
+                <div class="grid">
+                    <h1 class="recently">Recently added</h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    
+    </div>
+</body>
+</html>
