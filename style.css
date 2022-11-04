@@ -87,14 +87,18 @@ a.active,a:hover{
 }
 
 .card-header{
-    margin-right: 15px;
+    margin-left: 36px;
     display: flex;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
-    color: orange;
+    color: white;
     justify-content: center;
     align-items: center;
+    border: 2px solid orange;
+    width: 120px;
+    background-color: orange;
+    border-radius: 6px;
 }
 
 
@@ -118,6 +122,10 @@ a.active,a:hover{
 .form-container{
     margin-top: 180px;
     padding-top: 20px;
+    width: 50%;
+    border-radius: 6px;
+    margin-left: 25%;
+    background-color: orange;
 }
 
 .home{
@@ -143,29 +151,26 @@ a.active,a:hover{
 
 .about{
     margin-top: 50%;
-    width: 30%;
+    width: 20%;
     height: 25;
-    margin-left: 35%;
+    margin-left: 25%;
 
  
 }
 
 .about-title{
     font-size: 3em;
-    margin-left: 40%;
+    margin-left: 230px;
+    color: #fff;
 }
 
 .about-p{
     font-size: 2em;
     text-decoration: none;
+    width: 50vw;
+    color: white;
 }
 
-.form-container{
-   width: 50%;
-   border-radius: 6px;
-   margin-left: 25%;
-   background-color: orange;
-}
 .title{
     margin-bottom: 10px;
 }
@@ -201,7 +206,8 @@ a.active,a:hover{
 }
 
 .submit-btn:hover{
-    background-color: rgb(253, 212, 136);
+    background-color: rgb(255, 189, 35);
+    color: white;
 }
 
 
@@ -224,7 +230,7 @@ a.active,a:hover{
 
 .inventory-form{
     color: white;
-    margin-left: 33px;
+   margin-left: 33px;
     margin-top: 10px;
 }
 
@@ -251,4 +257,25 @@ input{
     background-color: orange;
     color: white;
     box-shadow: 0 0 8px orange;
+}
+.about-section {
+    background: orange;
+    border-radius: 7px;
+    width: 80%;
+    padding-bottom: 10%;
+    margin-right: 70%;
+    padding-right: 8%;
+    margin-left: 80px;
+
+}
+
+
+.products-section{
+    background-color:#273746;
+    padding-bottom: 20%;
+}
+
+
+.copyright{
+    font-size: 20px;
 }
