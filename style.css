@@ -49,6 +49,7 @@ nav ul li a{
 
 a.active,a:hover{
     background: #AED4E6;
+    box-shadow: 0 0 3px;
     transition: .5s;
 }
 
