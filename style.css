@@ -318,3 +318,15 @@ input{
     border-radius: 15px;
 
 }
+
+#pro-icon{
+    font-size: 1.3em;
+    position: absolute;
+    margin-left: 12.8%;
+    margin-top: 33px;
+    color: #7aa4fd;
+}
+
+#login{
+    padding-right: 10px;
+}
